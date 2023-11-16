@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.active{
+    font-size: large;   
+    text-transform: capitalize;
+    background-color: yellow;
+    color:rgb(9, 9, 239);
+    border-radius: 10%;
+}
+.active:hover{
+    background-color: transparent;
+}
